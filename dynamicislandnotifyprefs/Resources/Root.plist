@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <!-- Header -->
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>ShimaStyle</string>
+            <key>footerText</key>
+            <string>Force all app notifications through the Dynamic Island.</string>
+        </dict>
+
+        <!-- Enable Toggle -->
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>com.34306.shimastyle</string>
+            <key>key</key>
+            <string>enabled</string>
+            <key>label</key>
+            <string>Enable Tweak</string>
+        </dict>
+
+        <!-- Notification Section -->
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Notifications</string>
+            <key>footerText</key>
+            <string>When enabled, notifications are displayed through the Dynamic Island and the default notification banner is suppressed.</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>com.34306.shimastyle</string>
+            <key>key</key>
+            <string>notificationEnabled</string>
+            <key>label</key>
+            <string>Dynamic Island Notifications</string>
+            <key>PostNotification</key>
+            <string>com.34306.shimastyle/prefsChanged</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSSegmentCell</string>
+            <key>default</key>
+            <integer>0</integer>
+            <key>defaults</key>
+            <string>com.34306.shimastyle</string>
+            <key>key</key>
+            <string>notificationStyle</string>
+            <key>validValues</key>
+            <array>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>2</integer>
+            </array>
+            <key>validTitles</key>
+            <array>
+                <string>Standard</string>
+                <string>Compact</string>
+                <string>Minimal</string>
+            </array>
+            <key>PostNotification</key>
+            <string>com.34306.shimastyle/prefsChanged</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSSliderCell</string>
+            <key>default</key>
+            <real>5.0</real>
+            <key>defaults</key>
+            <string>com.34306.shimastyle</string>
+            <key>key</key>
+            <string>dismissDuration</string>
+            <key>label</key>
+            <string>Dismiss After (seconds)</string>
+            <key>min</key>
+            <real>1.0</real>
+            <key>max</key>
+            <real>15.0</real>
+            <key>showValue</key>
+            <true/>
+            <key>PostNotification</key>
+            <string>com.34306.shimastyle/prefsChanged</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Show Test Notification</string>
+            <key>action</key>
+            <string>testNotification</string>
+        </dict>
+
+        <!-- Custom Background Section -->
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Custom Background</string>
+            <key>footerText</key>
+            <string>Customize the Dynamic Island background. Use a hex color code (e.g. #FF5733) or provide a full path to a background image on device.</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>com.34306.shimastyle</string>
+            <key>key</key>
+            <string>customBackgroundEnabled</string>
+            <key>label</key>
+            <string>Enable Custom Background</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>default</key>
+            <string>#1C1C1E</string>
+            <key>defaults</key>
+            <string>com.34306.shimastyle</string>
+            <key>key</key>
+            <string>customBackgroundColorHex</string>
+            <key>label</key>
+            <string>Background Color (Hex)</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>defaults</key>
+            <string>com.34306.shimastyle</string>
+            <key>key</key>
+            <string>customBackgroundImagePath</string>
+            <key>label</key>
+            <string>Background Image Path</string>
+            <key>placeholder</key>
+            <string>/var/jb/Library/DINBackground.png</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSSliderCell</string>
+            <key>default</key>
+            <real>1.0</real>
+            <key>defaults</key>
+            <string>com.34306.shimastyle</string>
+            <key>key</key>
+            <string>backgroundOpacity</string>
+            <key>label</key>
+            <string>Background Opacity</string>
+            <key>min</key>
+            <real>0.0</real>
+            <key>max</key>
+            <real>1.0</real>
+            <key>showValue</key>
+            <true/>
+        </dict>
+
+        <!-- Respring Button -->
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>footerText</key>
+            <string>A respring is required for background changes to take effect.</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Respring</string>
+            <key>action</key>
+            <string>respring</string>
+        </dict>
+
+        <!-- Credits -->
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>footerText</key>
+            <string>ShimaStyle v1.0.0
+Supports iOS 16 - 26.</string>
+        </dict>
+    </array>
+    <key>title</key>
+    <string>ShimaStyle</string>
+</dict>
+</plist>
